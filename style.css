@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Boldonse&family=Cinzel:wght@800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1522&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:30px;
+}
+
+.botones a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.botones{
+    margin-top: 10px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo1 h2{
+     padding-top: 25px;
+     text-align: center;
+     color: rgb(55, 55, 84);
+     font-size: 24px;
+}
+
+body{
+    background-color: antiquewhite ;
+}
+
+.letraGeneral{
+    color: rgb(0, 0, 0);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 800px;
+    padding: 10px;
+    margin-left: 270px;
+    font-size: 17px;
+}
+
+.color1{
+    color: brown;
+    padding: 20px;
+    font-style: italic;
+}
+
+.tarjetaGeneral{
+    box-shadow: 3px 3px 5px;
+    width: 800px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 30px;
+    width: 1250px;
+
+}
+
+#titulo1{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.tarjetaGeneral p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+
+.tarjetaGeneral h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    color: rgb(102, 58, 42);
+}
+
+.tarjetaGeneral img{
+    width: 300px;
+}
+
+.tarjetaGeneral a{
+    font-size: 15px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 16px;  
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+}
