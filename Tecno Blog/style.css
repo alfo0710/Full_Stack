@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+
+header{
+    background-color: rgb(143, 212, 220);
+    display: flex;
+}
+
+.encabezado1{
+    padding: 20px;
+}
+
+.encabezado2{  
+    margin-left: 800px;
+    margin-top: 40px;
+}
+
+.fondo{
+    background-image: url(https://img.freepik.com/vector-premium/diagrama-circuito-azul-tecnologia-sobre-fondo-blanco-sistema-conexion-placa-circuito-alta-tecnologia-tecnologia-abstracta-vectorial-sobre-fondo-blanco_387612-717.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    justify-content: flex-start; 
+    background-position: center bottom -250px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Boldonse&family=Oswald:wght@200..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+    #letraEncabezado {
+        font-family: "Boldonse", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 10px;
+      }
+
+      .letra1{
+        font-family: "Boldonse", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        text-decoration: none;  
+      }
+
+      .CB{
+        margin-left: 200px;
+      }
+
+      .tituloPrincipal{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 15px;
+      }
+
+      .parrafoTB h3{
+        margin-left: 60px; 
+        margin-top: 30px;
+      }
+
+      .parrafoTB p{
+        width: 450px; 
+        margin-left: 60px;
+      }
+
+      .botonTB a{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 17px;
+      }
+
+      .botonTB button{
+        background-color: rgb(143, 212, 220);
+        border-radius: 5px;
+        border-color: rgb(143, 212, 220);
+        margin-top: 30px;
+        margin-left: 60px;
+        padding: 5px;
+      }
+
+      .encabezado1 a{
+        text-decoration: none;
+      }
+
+      .ventajas{
+        background-color: rgb(141, 195, 141);
+         width: 400px;
+         margin-left: 50px;
+          margin-top: 10px;
+      }
+
+      .ventajas ol{
+        background-color: rgb(141, 195, 141);
+        margin-left: 50px;
+        width: 350px;
+        padding-bottom: 10px;
+      }
+
+      .desventajas{
+        background-color: rgb(229, 128, 115);
+        margin-left: 50px;
+        width: 400px;
+        padding-bottom: 10px;
+      }
+
+      .desventajas ol{
+        margin-left: 50px;
+        background-color: rgb(229, 128, 115);
+        width: 350px;
+        padding-bottom: 10px;
+      }
+
+      .CiberBlog1 h1{
+        padding: 20px;
+        justify-content: center;
+        display: flex;
+      }
+
+      .CiberBlog1 p{
+        margin-left: 480px;
+        margin-top: 10px;
+        text-align: center;
+        width: 400px;
+        margin-bottom:50px;
+      }
+
+      .parrafoCB{
+        margin-left: 110px;
+        width: 500px;
+        background-color: rgb(143, 212, 220);
+        padding: 20px;
+        border-radius: 10px;
+        opacity: 0.8;
+        margin-top:10px;
+      }
+
+      .parrafo2CB{
+        margin-left: 300px;
+        width: 700px;
+        background-color: rgb(143, 212, 220);
+        padding: 20px;
+        border-radius: 10px;
+        opacity: 0.8;
+        margin-top: 40px;
+      }
+
+      .tituloA{
+        margin-left: 120px;
+      }
+
+      .parrafoCB h4{
+        font-size: 20px;
+        padding: 1px;
+      }
+
+      .parrafoCB b{
+        font-size: 15px;
+        padding: 1px;
+      }
+
+      .parrafoT1 p{
+        margin-left: 50px;
+        margin-top: 10px;
+        text-align: center;
+        width: 500px;
+        margin-bottom:30px;
+      }
+
+      .parrafoT1{
+        margin-left: 375px;
+        width: 600px;
+        background-color: rgb(143, 212, 220);
+        padding: 20px;
+        border-radius: 10px;
+        opacity: 0.8;
+        margin-top:10px;
+      }
+
+      .caracteristicasCIA{
+        margin-left: 60px;
+        width: 500px;
+        margin-top: 20px;
+      }
+
+      .casosReales{ 
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .contenedorCR{
+        background-color: rgb(143, 212, 220);
+        width: 250px;
+        padding: 30px;
+        border-radius:10px;
+      }
+
+      .contenedorCR h1{
+        margin-bottom: 20px;
+      }
+
+      .tituloCR{
+        text-align: center;
+        margin: 30px;
+      }
+
+
