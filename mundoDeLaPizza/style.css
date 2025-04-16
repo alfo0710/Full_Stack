@@ -1,0 +1,168 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(https://img.freepik.com/fotos-premium/fondo-mosaico-blanco-fondo-triangulo-blanco-abstractovector_968500-480.jpg);
+}
+
+.letraGeneral {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #a93838;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+}
+
+article{
+  margin-left: 780px;
+  margin-top: 12px;
+}
+
+article a{
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-size: 17px;
+}
+
+h2 {
+  margin-left: 22px;
+  margin-top: 20px;
+}
+
+hr {
+  width: 250px;
+  margin-left: 10px;
+}
+
+h3 {
+  margin-left: 22px;
+  margin-top: 20px;
+}
+
+nav p{
+  width: 500px; 
+  margin-left: 22px;
+  margin-top: 10px;
+}
+
+nav h1{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#tipos{
+  margin-left: 550px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+#letracursiva {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+section{
+  display: flex;
+}
+
+div{
+  background-color:#a93838;
+  width:300px;
+  margin: 30px;
+}
+
+div img{
+  width: 250px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+div h1{
+  margin: 10px;
+  color: aliceblue;
+}
+
+div h4{
+  color: aliceblue;
+  margin: 10px;
+}
+
+div li{
+  margin: 10px;
+}
+
+div p{
+  margin: 10px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+aside{
+  background-color:#a93838;
+  margin: 8px;
+}
+
+.galeria{
+  display: flex;
+}
+
+.galeria1 img{
+  height:350px; 
+  width:350px; 
+  margin:40px;
+}
+
+.galeria2 .img1{
+  height: 400px;
+  margin:40px;
+}
+
+.galeria2 .img2{
+  height: 400px; 
+  width:350px;
+  margin:40px;
+  margin-left: 110px;
+}
+
+.galeria3 img {
+  height: 400px;
+  margin:20px;
+  margin-left: 310px;
+}
+
+button{
+  background-color: rgb(206,66,66); 
+  border-radius: 10px; 
+  padding:10px; 
+  border-color: transparent;
+  margin-left: 650px;
+  margin-top: 70px;
+}
+
+button a{
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
+  margin: 10px;
+}
+
+
+
+
