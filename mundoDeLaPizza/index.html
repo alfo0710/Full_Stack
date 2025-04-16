@@ -4,97 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo de la pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
 </head>
 
-<style>
 
-@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+<header  class="letraGeneral"  >
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Boldonse&family=Oswald:wght@200..700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Boldonse&family=Oswald:wght@200..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Boldonse&family=Oswald:wght@200..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
-
-    *{
-    margin: 0px;
-    padding:0px;
-    scroll-behavior: smooth;
-    
-}
-#letracursiva {
-  font-family: "Playball", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-}
-
-.boldonse-regular {
-  font-family: "Boldonse", system-ui;
-  font-size: 22px;
-  font-style: normal;
-}
-
-.boldonse-regular2 {
-  font-family: "Boldonse", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 10px;
-}
-
-
-
-
-
-</style>
-
-<header>
-
-<div style="display: flex;background-color: rgb(206, 66, 66);">
-    <h1  class="boldonse-regular" style="margin: 10px;">Mundo de la pizza <i>🍕</i></h1>
-    <div style="margin-top: 23px; margin-left:65%; font-size: 20px;">
-    <b><a style="margin:10px; text-decoration: none; color: black;" href="#recetas">Recetas</a></b>
-    <b><a style="text-decoration: none;color: black; margin-right:10px;"href="tipos.html">Tipos</a></b>
-    </div>
-</div>    
+    <h1>Mundo de la pizza <a href="index.html"> <i>🍕</i></a></h1>
+    <article>
+    <b><a href="#recetas">Recetas</a></b>
+    <b><a href="tipos.html">Tipos</a></b>
+    </article>
 
 </header>
 
-<body>
+<body  class="letraGeneral">
     
-    <h2 style="margin-left: 22px; margin-top:20px;">Bienvenidos al blog!</h2>
-    <hr style="width: 250px; margin-left: 10px;">
+    <h2>Bienvenidos al blog!</h2>
+    <hr>
 
-    <div >
-        <h3 class="boldonse-regular"  style="margin-left: 22px; margin-top: 20px;">HISTORIA</h3>
-        <p id="letracursiva" style="width: 500px; margin-left: 22px;margin-top: 10px;">En Montevideo, la familia Rossi mantenía una pizzería heredada del abuelo Enzo, un inmigrante italiano que trajo su receta desde Nápoles. Cada sábado, hijos y nietos ayudaban en la cocina mientras los clientes, casi familia, disfrutaban su pizza a la piedra. Con los años, su hijo Mario tomó las riendas, 
-            asegurando que la tradición siguiera viva.</p>
+    <nav>
+    <h3>HISTORIA</h3>
+    <p id="letracursiva">En Montevideo, la familia Rossi mantenía una pizzería heredada del abuelo Enzo, un inmigrante italiano que trajo su receta desde Nápoles. Cada sábado, hijos y nietos ayudaban en la cocina mientras los clientes, casi familia, disfrutaban su pizza a la piedra. Con los años, su hijo Mario tomó las riendas, asegurando que la tradición siguiera viva.</p>
+    </nav>
+
+
+    <h3 id="recetas" >RECETAS</h3>
+
+    <section>
+    <div>
+        <h1>Pizza Margarita</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZjo9nnM4x4yqYkNG8kQmUvHpcpPr1pvlOGA&s" alt="pizza margarita">
+        <h4>Ingredientes:</h4>
+        <li>Salsa de tomate</li>
+        <li>Mozzarella</li>
+        <li>Albahaca fresca</li>
+        <li>Aceite de liiva</li>
+        <h4>Preparación:</h4>
+        <p>Extendé la masa, agregá salsa de tomate, mozzarella, horneá y poné las hojas de albahaca y aceite de oliva.</p>
     </div>
 
-<div style="background-image: url(https://img.freepik.com/fotos-premium/fondo-mosaico-blanco-fondo-triangulo-blanco-abstractovector_968500-480.jpg);">
-    <h3 id="recetas" class="boldonse-regular"   style="margin-top: 10px;margin-left: 22px; margin-bottom: 10px">RECETAS</h3>
-
-    <div class="boldonse-regular2" style="margin-left: 22px;background-color: rgb(206, 66, 66);padding: 10px;width: 500px; height: 150px;" >
-        <h4  style="font-size: 18px;margin-bottom: 8px;">Ingredientes:</h2>
-        <li>250 g de harina leudante<i>✅</i> </li>
-        <li>150 ml de agua <i>✅</i></li>
-        <li>1 cucharada de aceite de oliva <i>✅</i> </li>
-        <li>150 g de salsa de tomate <i>✅</i> </li>
+    <div>
+        <h1>Pizza Cuatro Quesos</h1>
+        <img src="https://www.hola.com/horizon/landscape/e8bb41b65869-pizzacuatroquesos-adob-t.jpg" alt="pizza cuatro quesos">
+        <h4>Ingredientes:</h4>
+        <li>Mozzarella</li>
+        <li>Queso azul</li>
+        <li>Queso parmesano</li>
+        <li>Queso fontina (o el que tengas)</li>
+        <h4>Preparación:</h4>
+        <p>Poné los quesos sobre la masa con un poco de salsa si querés. Horneá hasta que se derritan y gratinen.</p>
     </div>
 
-    <div class="boldonse-regular2"  style=" margin-left: 22px;background-color: rgb(206, 66, 66);padding: 10px;width: 500px; height: 150px; margin-top: 20px;" >
-        <h4 style="font-size: 18px;margin-bottom: 8px;">Preparación:</h2>
-            <ol style="margin: 10px;">
-        <li>Mezcla harina, agua y aceite hasta formar una masa suave.</li>
-        <li>Estira la masa sobre una superficie enharinada.</li>
-        <li>Precalienta el horno a 200°C y coloca la masa en una bandeja.</li>
-        <li>Esparce la salsa de tomate sobre la masa.</li>
-        <li>Hornea 10-15 minutos hasta que esté dorada y crujiente.</li>
-    </ol>
+    <div>
+        <h1> Pizza Napolitana</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzWAV18o0yWsuy3kdYGTbX9f1nEXrSoPojmg&s" alt="pizza napolitana">
+        <h4>Ingredientes:</h4>
+        <li>Salsa de tomate</li>
+        <li>Mozzarella</li>
+        <li>Tomate en rodajas</li>
+        <li>Aceite de liiva</li>
+        <h4>Orégano</h4>
+        <p>Colocá la salsa, luego el queso y las rodajas de tomate. Espolvoreá orégano y horneá.</p>
     </div>
 
+    <div>
+        <h1>Pizza Vegetariana</h1>
+        <img src="https://media.istockphoto.com/id/842082336/es/foto/pizza-de-verduras-caseras-con-champi%C3%B1ones-pimientos.jpg?s=612x612&w=0&k=20&c=oaVZ2qPIbZVE5JFol4NIktHS2w-UpcFGoPh1qoKAFQ8=" alt="pizza vegetariana">
+        <h4>Ingredientes:</h4>
+        <li>Salsa de tomate</li>
+        <li>Mozzarella</li>
+        <li>Morrón (pimiento)</li>
+        <li>Champiñones</li>
+        <h4>Preparación:</h4>
+        <p>Extendé la masa, agregá salsa, queso, y encima las verduras cortadas. Horneá hasta que estén doraditas.</p>
     </div>
 
+    <div>
+        <h1>Pizza Vegetariana</h1>
+        <img src="https://media.istockphoto.com/id/842082336/es/foto/pizza-de-verduras-caseras-con-champi%C3%B1ones-pimientos.jpg?s=612x612&w=0&k=20&c=oaVZ2qPIbZVE5JFol4NIktHS2w-UpcFGoPh1qoKAFQ8=" alt="pizza vegetariana">
+        <h4>Ingredientes:</h4>
+        <li>Salsa de tomate</li>
+        <li>Mozzarella</li>
+        <li>Morrón (pimiento)</li>
+        <li>Champiñones</li>
+        <h4>Preparación:</h4>
+        <p>Extendé la masa, agregá salsa, queso, y encima las verduras cortadas. Horneá hasta que estén doraditas.</p>
+    </div>
+
+    <div>
+        <h1>Pizza Fugazzeta (típica argentina)</h1>
+        <img src="https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/04/05/fugazzeta.jpeg" alt="pizza fugazzeta">
+        <h4>Ingredientes:</h4>
+        <li>Cebolla en pluma</li>
+        <li>Mozzarella</li>
+        <li>Orégano</li>
+        <li>Aceitunas</li>
+        <h4>Preparación:</h4>
+        <p>Poné mucho queso sobre la masa, agregá la cebolla cruda, aceitunas y orégano. Horneá hasta que la cebolla esté dorada.        </p>
+    </div>
+
+    </section>
+    
 
 </body>
 </html>
